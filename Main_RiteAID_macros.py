@@ -34,9 +34,10 @@ class Macros_RITE_INSIGHT_DATA(unittest.TestCase):
         #self.export_path = 'C:\\Users\\alejandro.gutierrez\\OneDrive - Carlin Group - CA Fortune\\Documents\\ALEJANDRO RAMOS GTZ\\CARLIN\\RITE AID'
         self.export_path = 'C:\\Users\\alejandro.gutierrez\\OneDrive - Carlin Group - CA Fortune\\Documents\\KROGER SELENIUM\\RITE INSIGHT\\FINAL WEEK FILES'
 
-        #Week number 
+        #Week number CAMBIAR EL SELF.WEEK NUMBER AL NUMERO DE SEMANA QUE SE DESEA PROCESAR (SEMANAS PASADAS)
         t1 = datetime.now()
         self.week_number = str(t1.strftime("%U"))
+        #self.week_number = "39"
         
     #@unittest.skip('Not need now')
     def test_YTD(self):
